@@ -1,0 +1,19 @@
+:root {
+    --color-primary: #F7941E;
+    --color-secondary: #00A79D;
+    --color-background: #414042;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-sans text-white text-sm;
+}
+
+body {
+    @apply bg-background;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
